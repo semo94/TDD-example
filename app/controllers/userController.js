@@ -24,15 +24,15 @@ var UserController = function(User){
   }
 
   userCTRL.DeleteUser = function(req, res, next) {
-    res.status(204).send();
+    req.status(204).send();
   }
 
   userCTRL.UpdateUserName = function(req, res, next) {
-    res.status(204).send();
+    req.status(204).send();
   }
 
   userCTRL.ActivateAccount = function(req, res, next) {
-    res.status(204).send();
+    req.status(204).send();
   }
 
   return userCTRL;
