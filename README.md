@@ -65,3 +65,20 @@ Within the root directory:
 ```sh
 npm start
 ```
+## Testing process
+
+### Two test-cases were written without actual implementation. Test should fail
+![alt text](https://raw.githubusercontent.com/semo94/TDD-example/master/Doc%20imgs/Two%20faild.png)
+***
+
+### Two functions were written to satisfy the previous test-cases. Both tests should pass
+![alt text](https://raw.githubusercontent.com/semo94/TDD-example/master/Doc%20imgs/Two%20passed.png)
+***
+
+### Three new test-cases were added without any further implementation. Two should pass and three should fail
+![alt text](https://raw.githubusercontent.com/semo94/TDD-example/master/Doc%20imgs/Three%20faild.png)
+***
+
+### Three Aditional functions were written to satisfy the previous test cases, All five tests should pass
+![alt text](https://raw.githubusercontent.com/semo94/TDD-example/master/Doc%20imgs/Five%20passed.png)
+
