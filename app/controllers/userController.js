@@ -49,7 +49,7 @@ var UserController = function(User){
       user.activated = true;
       user.save(function(err, user){
         if(err) {
-          res.json({status: false, error: "Username didn't updated"});
+          res.json({status: false, error: "Username wasn't updated"});
         }
         res.json({status: true, user: user});
       });
